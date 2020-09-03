@@ -42,7 +42,7 @@
 `pip install keras==2.2.5 --upgrade`
 
 1. Install matplotlib. \
-`pip install matplotlib --upgrade`
+`pip install matplotlib --upgrade`\
 `conda install matplotlib`
 
 1. Install exiftool. \
