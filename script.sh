@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# Here is the variable you should adjust.
 path_to_data='sample_data'
 
 echo $path_to_data | python script.py
