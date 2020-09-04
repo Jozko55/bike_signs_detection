@@ -48,6 +48,8 @@
 1. Install exiftool. \
 `sudo apt-get install exiftool`
 
+1. Make sure that you have installed and you use [git lfs](https://git-lfs.github.com/). Without this you will not be able to download the resnet model in the next step. (You can avoid this step by downloading the resnet model separately.)
+
 1. Clone this repository. \
 `git clone https://github.com/Jozko55/bike_signs_detection.git`
 
