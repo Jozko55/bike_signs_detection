@@ -26,7 +26,7 @@
    `pip install . --upgrade`
 
 1. Install keras-maskrcnn 0.2.2.
-   * Clone [keras-maskrcc](https://github.com/fizyr/keras-maskrcnn) repository. \
+   * Clone [keras-maskrcnn](https://github.com/fizyr/keras-maskrcnn) repository. \
    `git clone https://github.com/fizyr/keras-maskrcnn.git`
 
    * Move to the keras-maskrcnn folder. \
@@ -41,7 +41,7 @@
 1. Install keras 2.2.5. \
 `pip install keras==2.2.5 --upgrade`
 
-1. Install matplotlib. \
+1. Install matplotlib with dependencies. \
 `pip install matplotlib --upgrade`\
 `conda install matplotlib`
 
@@ -56,7 +56,7 @@
 
 Firstly, create a folder where both input pictures and outputs will be stored. The folder must contain two separate folders named `inputs` and `outputs`. The subfolder `inputs` should contain your input pictures. The subfolder `outputs` should be empty.
 
-Now, adjust accordingly the variable `path_to_data` in the file `script.sh`. (By default the path to `sample_data` is set.)
+Now, adjust accordingly the variable `path_to_data` in the file `script.sh`. (By default it is the path to `sample_data`.)
 
 Finally, run everything. \
 `./script.sh`
